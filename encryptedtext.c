@@ -12,7 +12,7 @@ len = read_text(str,sizeof(str),1);
         {
             for(j=i+1;j<26;j++)
             {
-                if(key[i]==key[j])
+                if(key[i]==key[j])//sto key[j] apothikevwntai ta apokriptografimena grammata 
                 {
                     found = 1;
                     printf("enter characters should be different\n");
