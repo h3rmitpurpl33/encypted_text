@@ -29,8 +29,8 @@ len = read_text(str,sizeof(str),1);
     {
         if(str[i]>='a'&&str[i]<='z')
         {
-            str[i] = key[str[i]-'a'];//afaireis ton xarakthra a
-            // gia na pareis to gramma ths alfavhtoy
+            str[i] = key[str[i]-'a'];//afaireis ton xarakthra apo to str[i]
+            // gia na pareis to stoixeio stwn pinaka key[j]
         }
     }
     printf("encrypted text : %s\n" , str);
